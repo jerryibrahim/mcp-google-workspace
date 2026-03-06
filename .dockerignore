@@ -1,0 +1,9 @@
+workspace-repo/.git
+workspace-repo/node_modules
+workspace-repo/workspace-server/node_modules
+workspace-repo/workspace-server/dist
+workspace-repo/docs
+workspace-repo/.github
+workspace-repo/cloud_function
+workspace-repo/commands
+workspace-repo/skills

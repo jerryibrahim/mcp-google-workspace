@@ -1,0 +1,13 @@
+services:
+  google-workspace-mcp:
+    build: .
+    container_name: google-workspace-mcp
+    hostname: google-workspace-mcp
+    stdin_open: true
+    volumes:
+      - credentials:/app/credentials
+    environment:
+      - GEMINI_CLI_WORKSPACE_FORCE_FILE_STORAGE=true
+
+volumes:
+  credentials:
